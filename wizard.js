@@ -9,7 +9,7 @@ Wizard.get = function(id) {
 
 Template.registerHelper('pathForStep', function(id) {
   var activeStep = this.wizard.activeStep(false);
-  if (activeStep.id === id || !this.data() || this.wizard.indexOf(id) > this.wizard.indexOf(activeStep.id)) {
+  if (activeStep.id === id || !this.data() ) {
     return null;
   } if (!this.wizard.route) {
     return '#' + id;

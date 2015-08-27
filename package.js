@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'forwarder:autoform-wizard',
+  name: 'steveturner:autoform-wizard',
   summary: 'A multi step form component for AutoForm.',
-  version: '0.7.0',
-  git: 'https://github.com/forwarder/meteor-wizard.git'
+  version: '0.7.1',
+  git: 'https://github.com/steveturner/meteor-wizard.git'
 });
 
 Package.onUse(function(api) {
